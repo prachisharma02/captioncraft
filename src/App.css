@@ -1,0 +1,64 @@
+.details {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+}
+
+.image-results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.image-item {
+  position: relative;
+}
+
+.image-item img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-item button {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.canvas-container {
+  margin-bottom: 20px;
+}
+
+#canvas {
+  border: 1px solid black;
+}
+.h3 {
+}
+.controls button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
