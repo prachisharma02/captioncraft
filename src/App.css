@@ -1,38 +1,64 @@
+.details {
+  margin-left: 10%;
+  margin-top: 5%;
+}
 .App {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-bar {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-bar button {
+  padding: 10px 20px;
+}
+
+.image-results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.image-item {
+  position: relative;
+}
+
+.image-item img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-item button {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.canvas-container {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#canvas {
+  border: 1px solid black;
+}
+.h3 {
+}
+.controls button {
+  margin-right: 10px;
+  padding: 10px 20px;
 }
