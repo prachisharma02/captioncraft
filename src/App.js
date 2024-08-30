@@ -3,7 +3,7 @@ import "./App.css";
 import { fabric } from "fabric";
 
 // Use the API key from the environment variable
-const API_KEY = process.env.REACT_APP_PIXABAY_API_KEY;
+// const API_KEY = process.env.REACT_APP_PIXABAY_API_KEY;
 
 const App = () => {
   const [images, setImages] = useState([]);
